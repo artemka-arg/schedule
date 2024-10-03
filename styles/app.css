@@ -39,7 +39,6 @@
 }
 
 body {
-  height: 100vh;
   line-height: 1.2;
   font-family: Inter, sans-serif;
   color: var(--light);
