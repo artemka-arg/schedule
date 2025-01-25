@@ -105,6 +105,10 @@ h2 {
   padding: 10px;
 }
 
+.lecture {
+  background-color: #404040;
+}
+
 .lesson h3 {
   margin-bottom: 5px;
   font-size: 16px;
