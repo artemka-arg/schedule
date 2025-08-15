@@ -72,7 +72,7 @@ h2 {
   align-content: space-around;
   align-items: center;
   gap: 20px 20px;
-  max-height: 800px;
+  max-height: 1000px;
 }
 
 .day {
@@ -128,6 +128,26 @@ h2 {
   text-align: center;
 }
 
+.bb-none {
+  border-bottom: none !important;
+}
+
+.first-left {
+  border-top-left-radius: 13px;
+}
+
+.first-right {
+  border-top-right-radius: 13px;
+}
+
+.last-left {
+  border-bottom-left-radius: 13px;
+}
+
+.last-right {
+  border-bottom-right-radius: 13px;
+}
+
 @media (max-width: 760px) {
   h1 {
     margin-bottom: 25px;
@@ -160,13 +180,19 @@ h2 {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 359px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .day {
-    width: 95%;
+    width: 100%;
     min-width: auto;
   }
 
   .lesson-time {
     min-width: auto;
+    font-size: 12px;
   }
 }
