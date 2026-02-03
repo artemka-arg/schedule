@@ -1,169 +1,220 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Artem Darbinyan">
-  <link rel="icon" type="svg" href="assets/img/favicon.svg">
-  <link rel="stylesheet" href="styles/app.css">
-  <title>Расписание</title>
-</head>
-<body>
-  <div class="container">
-    <h1>Расписание</h1>
-    <div class="schedule">
-      <div class="day">
-        <h2>Понедельник</h2>
-        <table class="day-table">
-          <tbody>
-            <tr>
-              <td class="lesson-time">17:35-19:10</td>
-              <td class="lesson">
-                <h3>Судебная психиатрия</h3>
-                <p>ст. преп. Ковалева А.В.</p>
-                <p><span class="semi-bold"></span> ауд. 401</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="day">
-        <h2>Вторник</h2>
-        <table class="day-table">
-          <tbody>
-            <tr>
-              <td class="lesson-time">9:50-11:25</td>
-              <td class="lesson">
-                <h3>Налоговое право</h3>
-                <p>доц. Киселева А.В.</p>
-                <p><span class="semi-bold">семинар</span>, ауд. 121/1</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="lesson-time">11:55-13:30</td>
-              <td class="lesson">
-                <h3>Семейное право</h3>
-                <p>преп. Федорова И.В.</p>
-                <p><span class="semi-bold">семинар</span>, ауд. 109</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="lesson-time">13:45-15:20</td>
-              <td class="lesson">
-                <h3>Криминалистика</h3>
-                <p>доц. Фролова Е.Ю.</p>
-                <p><span class="semi-bold">семинар</span>, <u>подгруппа 1</u>, ауд. 303</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="day">
-        <h2>Среда</h2>
-        <table class="day-table">
-          <tbody>
-            <tr>
-              <td class="lesson-time first-left bb-none" rowspan="2">15:50-17:25</td>
-              <td class="lesson first-right">
-                <h3>Экологическое право</h3>
-                <p>доц. Филимонова Е.А.</p>
-                <p><span class="semi-bold">семинар</span>, ауд. 405</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="lesson">
-                <h3>Административное судопроизводство</h3>
-                <p>преп. Кожухова А.С.</p>
-                <p><span class="semi-bold">семинар</span>, ауд. 405</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="day">
-        <h2>Четверг</h2>
-        <table class="day-table lecture">
-          <tbody>
-            <tr class="lecture">
-              <td class="lesson-time first-left">9:50-11:25</td>
-              <td class="lesson first-right">
-                <h3>Налоговое право</h3>
-                <p>доц. Киселева А.В., преп. Бочарова Н.Н.</p>
-                <p><span class="semi-bold">лекция</span> (7 лекций), ауд. 407</p>
-              </td>
-            </tr>
-            <tr class="lecture">
-              <td class="lesson-time">11:55-13:30</td>
-              <td class="lesson">
-                <h3>Предпринимательское право</h3>
-                <p>доц. Зиновьев И.П.</p>
-                <p><span class="semi-bold">лекция</span> (6 лекций), ауд. 407</p>
-              </td>
-            </tr>
-            <tr class="lecture">
-              <td class="lesson-time">13:45-15:20</td>
-              <td class="lesson">
-                <h3>Административное судопроизводство</h3>
-                <p>ст. преп. Чупилин Д.А.,<br> доц. Кулик Т.Ю.</p>
-                <p><span class="semi-bold">лекция</span> (5 лекций), ауд. 407</p>
-              </td>
-            </tr>
-            <tr class="lecture">
-              <td class="lesson-time last-left">15:50-17:25</td>
-              <td class="lesson last-right">
-                <h3>Экологическое право</h3>
-                <p>доц. Филимонова Е.А.</p>
-                <p><span class="semi-bold">лекция</span> (2 лекции), ауд. 407</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="day">
-        <h2>Пятница</h2>
-        <table class="day-table">
-          <tbody>
-            <tr>
-              <td class="lesson-time br-none">11:55-13:30</td>
-              <td class="lesson">
-                <h3>Гражданское право (ч.3.)</h3>
-                <p>преп. Федорова И.В.</p>
-                <p><span class="semi-bold">семинар</span>, ауд. 315</p>
-              </td>
-            </tr>
-            <tr class="lecture">
-              <td class="lesson-time">13:45-15:20</td>
-              <td class="lesson">
-                <h3>Гражданское право (ч.3.)</h3>
-                <p>доц. Саркисян В.В.</p>
-                <p><span class="semi-bold">лекция</span> (17 лекций), ауд. 407</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="lesson-time">15:50-17:25</td>
-              <td class="lesson">
-                <h3>Жилищное право</h3>
-                <p>преп. Федорова И.В.</p>
-                <p><span class="semi-bold">семинар</span>, ауд. 218</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="lesson-time">17:35-19:10</td>
-              <td class="lesson">
-                <h3>Предпринимательское право</h3>
-                <p>доц. Зиновьева О.П.</p>
-                <p><span class="semi-bold">семинар</span>, ауд. 315</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Artem Darbinyan" />
+    <link rel="icon" type="svg" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" href="styles/app.css" />
+    <title>Расписание</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Расписание</h1>
+      <div class="schedule">
+        <div class="day">
+          <h2>Понедельник</h2>
+          <table class="day-table lecture">
+            <tbody>
+              <tr>
+                <td class="lesson-time">19:15-20:50</td>
+                <td class="lesson">
+                  <h3>Криминология и современная антикоррупционная политика</h3>
+                  <p>проф. Корецкий Д.А., доц. Чурляева И.В.</p>
+                  <p>
+                    <span class="semi-bold"
+                      >лекция (8 лекций), Microsoft Teams</span
+                    >
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="day">
+          <h2>Вторник</h2>
+          <table class="day-table">
+            <tbody>
+              <tr>
+                <td class="lesson-time">11:55-13:30</td>
+                <td class="lesson">
+                  <h3>
+                    Современное уголовное и уголовно-процессуальное
+                    законодательство и практика его применения
+                  </h3>
+                  <p>проф. Апостолова Н.Н.</p>
+                  <p><span class="semi-bold">семинар</span>, ауд. 121/2</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="lesson-time first-left" rowspan="2">13:45-15:20</td>
+                <td class="lesson first-right">
+                  <h3>
+                    Современное уголовное и уголовно-процессуальное
+                    законодательство и практика его применения
+                  </h3>
+                  <p>ст.преп. Саядова А.С.</p>
+                  <p><span class="semi-bold">семинар</span>, ауд. 404</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="lesson">
+                  <h3>
+                    Актуальные проблемы гражданского права и гражданского
+                    процесса
+                  </h3>
+                  <p>доц. Храпунова Е.А.</p>
+                  <p><span class="semi-bold">семинар</span>, ауд. 404</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="lesson-time">15:50-17:25</td>
+                <td class="lesson">
+                  <h3>
+                    Актуальные проблемы гражданского права и гражданского
+                    процесса
+                  </h3>
+                  <p>проф. Смагина Е.С.</p>
+                  <p><span class="semi-bold">семинар</span>, ауд. 221</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="day">
+          <h2>Среда</h2>
+          <table class="day-table">
+            <tbody>
+              <tr class="lecture">
+                <td class="lesson-time first-left">13:45-15:20</td>
+                <td class="lesson first-right">
+                  <h3>Актуальные проблемы отраслей публичного права</h3>
+                  <p>доц. Джагарян Н.В.</p>
+                  <p>
+                    <span class="semi-bold">лекция</span> (9 лекций), ауд. 407
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="lesson-time">15:50-17:25</td>
+                <td class="lesson">
+                  <h3>Юридическая техника</h3>
+                  <p><span class="semi-bold">c 18.03</span> ст. преп. Федорова И.В.(3)</p>
+                  <p><span class="semi-bold">c 01.04</span> преп. Кожухова А.С.(2)</p>
+                  <p><span class="semi-bold">семинар</span>, ауд. 310</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="day">
+          <h2>Четверг</h2>
+          <table class="day-table">
+            <tbody>
+              <tr class="lecture">
+                <td class="lesson-time first-left" rowspan="2">11:55-13:30</td>
+                <td class="lesson first-right">
+                  <h3>
+                    Актуальные проблемы гражданского права и гражданского
+                    процесса
+                  </h3>
+                  <p>доц. Лапач Л.В.</p>
+                  <p>
+                    <span class="semi-bold">лекция</span> (5 лекций), ауд. 407
+                  </p>
+                </td>
+              </tr>
+              <tr class="lecture br-none">
+                <td class="lesson">
+                  <h3>
+                    Актуальные проблемы гражданского права и гражданского
+                    процесса
+                  </h3>
+                  <p>доц. Смагина Е.С.</p>
+                  <p>
+                    <span class="semi-bold">лекция</span> (5 лекций), ауд. 407
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="lesson-time">13:45-15:20</td>
+                <td class="lesson">
+                  <h3>Актуальные проблемы отраслей публичного права</h3>
+                  <p>доц. Джагарян Н.В.</p>
+                  <p><span class="semi-bold">семинар</span>, ауд. 218</p>
+                </td>
+              </tr>
+              <tr class="lecture">
+                <td class="lesson-time" rowspan="2">15:50-17:25</td>
+                <td class="lesson">
+                  <h3>
+                    Современное уголовное и уголовно-процессуальное
+                    законодательство и практика его применения
+                  </h3>
+                  <p>доц. Карасова А.Л., доц. Кейдунова Е.Р.</p>
+                  <p>
+                    <span class="semi-bold">лекция</span> (5 лекций), ауд. 407
+                  </p>
+                </td>
+              </tr>
+              <tr class="lecture br-none">
+                <td class="lesson">
+                  <h3>
+                    Современное уголовное и уголовно-процессуальное
+                    законодательство и практика его применения
+                  </h3>
+                  <p>проф. Апостолова Н.Н.</p>
+                  <p>
+                    <span class="semi-bold">лекция</span> (5 лекций), ауд. 407
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="lesson-time">17:35-19:10</td>
+                <td class="lesson">
+                  <h3>Криминология и современная антикоррупционная политика</h3>
+                  <p>доц. Чурляева И.В.</p>
+                  <p><span class="semi-bold">семинар</span>, ауд. 214</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="day">
+          <h2>Пятница</h2>
+          <table class="day-table">
+            <tbody>
+              <tr>
+                <td class="lesson-time">11:55-13:30</td>
+                <td class="lesson">
+                  <h3>Юридическая техника</h3>
+                  <p><span class="semi-bold">13.02-13.03</span> ст.преп. Батманов С.А.</p>
+                  <p><span class="semi-bold">с 20.03</span> ст. преп. Федорова И.В.</p>
+                  <p><span class="semi-bold">семинар</span>, ауд. 220</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="lesson-time br-none">15:50-17:25</td>
+                <td class="lesson">
+                  <h3>Юридическая техника</h3>
+                  <p><span class="semi-bold">03.04</span> преп. Кожухова А.С. (2)</p>
+                  <p><span class="semi-bold">семинар</span>, ауд. 220</p>
+                </td>
+              </tr>
+              <tr class="lecture">
+                <td class="lesson-time last-left br-none">15:50-17:25</td>
+                <td class="lesson last-right">
+                  <h3>Юридическая техника</h3>
+                  <p>ст. преп. Батманов С.А. (4)</p>
+                  <p>доц. Смагина Е.С. (1)</p>
+                  <p>доц. Лапач Л.В. (2)</p>
+                  <p><span class="semi-bold">семинар</span>, ауд. 220</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
-
-
-
-
-
