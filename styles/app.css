@@ -72,11 +72,11 @@ h2 {
   align-content: space-around;
   align-items: center;
   gap: 20px 20px;
-  max-height: 1220px;
+  max-height: 1240px;
 }
 
 .day {
-  width: 100%;
+  width: 330px;
   flex-shrink: 1;
 }
 
@@ -175,7 +175,7 @@ h2 {
   }
 
   .day {
-    /* width: 80%; */
+    width: 100%;
     min-width: 330px;
   }
 }
@@ -196,5 +196,4 @@ h2 {
     font-size: 12px;
   }
 }
-
 
